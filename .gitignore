@@ -16,5 +16,5 @@
 # vendor/
 
 # data base
-db-data/
+db-data/postgres/*
 notes
