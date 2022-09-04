@@ -8,8 +8,9 @@ Go, Make, Docker
 Run `go get -u -v -f all`
 
 # DB setup
+For local development, create local folder `db-data/postgres` to store data.
 Start the data base and mailhog by running `docker-compose up --build`
-See `db.sql` for data base and table structure
+Run setup commands from `db.sql` for data base and table structure. You can now log in using e-mail `john.smith@example.com` and password `password`.
 
 # Start server
 Run `make start` (or `make restart` if server is already running)

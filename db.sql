@@ -31,11 +31,9 @@ ALTER TABLE tokens ALTER COLUMN updated_on SET DEFAULT NOW();
 ALTER TABLE tokens ADD CONSTRAINT tokens_user FOREIGN KEY (user_id) REFERENCES users (id);
 
 INSERT INTO users(id, email, first_name, last_name, password) VALUES (1, 'admin@example.com', 'admin', 'adminski', '@Dmin1234');
+INSERT INTO users(id, email, first_name, last_name, password, user_active) VALUES (2, 'john.smith@example.com', 'Johna', 'Smith', '$2a$12$YPErh1s6f5yEZ7NvzFwx0uRy0VCO1aAktoPcDEBPpPa6AeJ2fUeTO', 1);
 
 ALTER TABLE tokens ALTER COLUMN expired TYPE TIMESTAMP WITH TIME ZONE;
-
-
-
 
 
 -- Books
