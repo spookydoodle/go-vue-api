@@ -1,3 +1,0 @@
-sudo pkill -u postgres
-sudo lsof -i :5432
-go test -v .
