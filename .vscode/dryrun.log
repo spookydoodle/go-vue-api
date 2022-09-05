@@ -1,7 +1,8 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/krajewka/Documents/js/vue-go-app/go-api'
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `d:/Creative stuff/JS/go-vue/api'
+ 
 echo "Building back end..."
-go build -o vueapi.exe ./cmd/api/
-echo "Binary built!"
-make: Leaving directory `/Users/krajewka/Documents/js/vue-go-app/go-api'
+go build -o vueapi.exe ./cmd/api
+echo back end built!
+make.exe: Leaving directory `d:/Creative stuff/JS/go-vue/api'
  
